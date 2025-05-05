@@ -4,7 +4,8 @@
 GoRetail operates in wine and beverage retail, with a wide range of products. With an extensive catalog, the sales and merchandising teams needed clarity on which products truly drive revenue. 
 
 ## Data source
-Open data from https://www.kaggle.com/datasets/bhanupratapbiswas/inventory-analysis-case-study
+This project analyzes sales orders, purchase orders, and inventory. This open dataset used can be accessed from Kaggle:
+[Inventory Analysis Case Study Dataset](https://www.kaggle.com/datasets/bhanupratapbiswas/inventory-analysis-case-study)
 
 ## Tool
 - PowerBI, PowerQuery, DAX
