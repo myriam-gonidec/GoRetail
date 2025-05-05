@@ -1,4 +1,4 @@
-# GoRetail
+# GoRetail: Analyzing Pareto principle (80/20 rule) for sales revenues
 
 ## Project description
 GoRetail operates in wine and beverage retail, with a wide range of products. With an extensive catalog, the sales and merchandising teams needed clarity on which products truly drive revenue. 
