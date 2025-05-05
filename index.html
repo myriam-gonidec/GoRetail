@@ -12,27 +12,64 @@
       color: #333;
       line-height: 1.6;
     }
+
     h1, h2 {
       color: #2c3e50;
     }
+
     img {
       max-width: 100%;
       height: auto;
       border: 1px solid #ddd;
       margin-bottom: 1rem;
     }
+
     a {
       color: #007acc;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
     ul {
       padding-left: 1.2rem;
     }
+
     .section {
       margin-bottom: 2rem;
+    }
+
+    .report-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 62.25%; /* 373.5 / 600 = 0.6225 aspect ratio */
+      height: 0;
+      overflow: hidden;
+    }
+
+    .report-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    /* Responsive typography and spacing for small screens */
+    @media (max-width: 600px) {
+      body {
+        margin: 1rem;
+        font-size: 1rem;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+      h2 {
+        font-size: 1.25rem;
+      }
     }
   </style>
 </head>
@@ -76,7 +113,7 @@
 
   <div class="report-container">
     <h2>📈 Live Power BI </h2>
-    <iframe title="GoRetail_myPBIxCode_20250505" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNmU2NmQzMGEtMzg1NC00NTNhLTk1ZTQtNTM1YTUyZmFkOTgwIiwidCI6ImNkZDhlZjE5LTYxZDUtNDRlNy1iZjYxLTZmMDNmMTg5YjM5ZCJ9" frameborder="0" allowFullScreen="true"></iframe>
+    <iframe title="GoRetail_myPBIxCode_20250505" src="https://app.powerbi.com/view?r=eyJrIjoiNmU2NmQzMGEtMzg1NC00NTNhLTk1ZTQtNTM1YTUyZmFkOTgwIiwidCI6ImNkZDhlZjE5LTYxZDUtNDRlNy1iZjYxLTZmMDNmMTg5YjM5ZCJ9" allowfullscreen></iframe>
   </div>
   
 </body>
