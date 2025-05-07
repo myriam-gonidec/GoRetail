@@ -17,5 +17,5 @@ This project analyzes sales orders, purchase orders, and inventory. This open da
 - Pareto visualization
 - Interactive filtering
 - Visual storytelling & dashboard design
-- Web embeded PowerBI dashboard
+- Web embedded PowerBI dashboard
 
